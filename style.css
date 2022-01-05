@@ -136,5 +136,77 @@ color: rgb(240, 163, 22);
 
 .fifth-sec{
     display: flex;
+   margin-top: 200px;
+   margin-left: 80px;
+
+
+}
+.fifth-first-div{
+    width: 25%;
+    background-image: url(connected.jpg);
+    border-radius: 20px;
+    height: 400px;
+    text-align: center;
+}
+.our-world{
+    color: rgb(151, 39, 226);
+    padding-top: 70px;
+    font-size: 24px;
+}
+.join-button{
+    color:white;
+    font-weight: 1000;
+    font-size: 20px;
+    text-decoration: none;
+    border: 3px solid rgb(184, 172, 214);
+    background-color: rgb(74, 54, 161);
+    padding: 7px 15px;
+    border-radius: 13px;
     
+
+}
+.social-media{
+    margin-left: 400px;
+    margin-top: 60px;
+}
+.social{
+   background-color: rgb(63, 63, 231);
+   color: white; 
+   padding: 10px 10px;
+   font-weight: 700;
+   border-radius: 13px;
+   text-decoration: none;
+   margin-right: 20px;
+   
+   
+
+}
+.connect-us{
+    margin-bottom: 50px;
+}
+.mail{
+    margin-top: 40px;
+    margin-bottom: -10px;
+    font-size: 25px;
+}
+
+.footer{
+    background-color: black;
+    
+}
+#mission2022{
+    font-style: italic;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.running-year{
+    color: rgb(238, 188, 95);
+}
+#hard-work{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 10px;
 }
