@@ -1,62 +1,86 @@
+/* First section */
+
+
 .first-sec{
     display: flex;
     margin: 100px 100px;
+    
 }
 .introduction{
     width: 50%;
+    padding-top: 65px;
+}
+
+
+.stay{
+     
+    border-left:5px solid;
+    border-image: linear-gradient(rgb(224, 21, 14), rgb(123, 224, 190)) 40;
+
+    
+    
+
+    
 
 }
-p{
-    font-size: 25px;
+
+.focused-text{
+    font-size: 60px;
+    
 }
+
+.mission22{
+    font-size: 60px;
+    color: rgb(240, 163, 22);
+    
+}
+
+.welcome-para{
+    font-size: 24px;
+}
+
 .explore{
     background-color: rgb(223, 77, 77);
     color: white;
     padding: 10px 20px;
     font-size: 25px;
     text-decoration: none;
-    border-radius: 6px;
-    
+    border-radius: 6px;    
 }
+
+.scroll-text{
+    margin-top: 25px;
+}
+
 .introduction-pic{
-    width: 50%;
-   
-   
-}
-.pic{
     
     height: 580px;
     padding-left: 200px;
     
+    
    
 }
-.focused{
-    font-size: 60px;
-}
-.mission{
-    font-size: 60px;
-    color: rgb(240, 163, 22);
-}
-.stay{
-    border-left: 5px solid rgb(218, 60, 60);
-}
+
+/* Second section  */
+
 
 .mission-2022{
     text-align: center;
     margin-top: 100px;
     font-size: 60px;
+    padding-right: 150px;
 }
+
 .year-22{
 color: rgb(240, 163, 22);
 }
 
-/* second section */
-
 .second-sec{
     display: flex;
-    margin-left: 50px;
+    margin-left: 60px;
 }
-.my-mission{
+
+.my-aim{
     width: 22%;
     margin: 80px 40px;
     padding: 20px 20px;
@@ -67,19 +91,24 @@ color: rgb(240, 163, 22);
     text-align: left;
     font-size: 35px;
 }
+
 .ilustration{
     width: 160px;
     height: auto;
 }
+
 .mission-details{
     font-size: 27px;
 }
+
 #mission{
     background-color: rgba(217, 220, 233, 0.781);
 }
+
 #vision{
     background-color: rgba(221, 151, 151, 0.205);
 }
+
 #goal{
     background-color: rgb(227, 219, 241);
 }
@@ -89,24 +118,32 @@ color: rgb(240, 163, 22);
 .third-sec{
     display: flex;
     margin-left: 80px;
-}
-.third-sec-div1{
-   width: 40%; 
-   
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: 0 300px;
 
 }
+
+.third-sec-div1{
+   width: 40%; 
+}
+
 .third-img{
     width: 600px;
 
 }
+
 .third-sec-div2{
     width: 50%;
     padding-top: 100px;
     margin-right: 250px;
 }
+
 .no-limits{
     font-size: 50px;
 }
+
 /* forth-section */
 
 
@@ -114,20 +151,33 @@ color: rgb(240, 163, 22);
     display: flex;
     margin-top: 200px;
     margin-left: 80px;
+    padding-bottom: 70px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 87% 93%;
+    background-size: 120px 120px;
 }
+
+
 .community{
     width: 50%;
     padding-top: 50px;
 }
-.world-img{
+
+.world-img-div{
     width: 30%;
+    
 }
-.world-net{
+.world-img{
     width: 500px;
     height: 450px;
     border-radius: 50px;
     margin-left: 100px;
+    
+    
 }
+    
+
 .global{
     font-size: 50px;
 }
@@ -136,7 +186,7 @@ color: rgb(240, 163, 22);
 
 .fifth-sec{
     display: flex;
-   margin-top: 200px;
+   margin-top: 130px;
    margin-left: 80px;
 
 
@@ -148,11 +198,13 @@ color: rgb(240, 163, 22);
     height: 400px;
     text-align: center;
 }
+
 .our-world{
     color: rgb(151, 39, 226);
     padding-top: 70px;
     font-size: 24px;
 }
+
 .join-button{
     color:white;
     font-weight: 1000;
@@ -162,13 +214,19 @@ color: rgb(240, 163, 22);
     background-color: rgb(74, 54, 161);
     padding: 7px 15px;
     border-radius: 13px;
-    
 
 }
+
 .social-media{
     margin-left: 400px;
     margin-top: 60px;
 }
+
+.connect-us{
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
 .social{
    background-color: rgb(63, 63, 231);
    color: white; 
@@ -176,21 +234,25 @@ color: rgb(240, 163, 22);
    font-weight: 700;
    border-radius: 13px;
    text-decoration: none;
-   margin-right: 20px;
+   margin-left: 23px;
    
    
+}
 
-}
-.connect-us{
-    margin-bottom: 50px;
-}
 .mail{
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: -10px;
+    font-size: 35px;
+    color: orange;
+    text-align: center;
+}
+.gmail{
     font-size: 25px;
+    text-align: center;
+    
 }
 
-.footer{
+footer{
     background-color: black;
     
 }
@@ -201,9 +263,11 @@ color: rgb(240, 163, 22);
     text-align: center;
     padding-top: 30px;
 }
+
 .running-year{
     color: rgb(238, 188, 95);
 }
+
 #hard-work{
     color: white;
     text-align: center;
